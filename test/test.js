@@ -81,15 +81,7 @@ describe('now-dart', () => {
 		builder = await packAndDeploy();
 	});
 
-	it('Deploy 01-include-files', async () => {
-		await testFixture('01-include-files', builder);
-	});
-
 	it('Deploy 02-with-dart-entrypoint', async () => {
 		await testFixture('02-with-dart-entrypoint', builder);
-	});
-
-	it('Deploy 03-with-function', async () => {
-		await testFixture('03-with-function', builder);
 	});
 });

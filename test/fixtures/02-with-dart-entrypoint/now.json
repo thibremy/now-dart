@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "bin/*.dart",
+      "use": "./now-dart-1.0.1.tgz"
+    }
+  ],
+  "build": {
+    "env": {
+      "NOW_BUILDER_DEBUG": "1"
+    }
+  }
+}
